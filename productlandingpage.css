@@ -1,9 +1,17 @@
 body {
   margin: 0;
-
   text-align: center;
   min-width: 320px;
-  background-color: orange;
+}
+
+.hero {
+  position: relative;
+  height: 50vh;
+  background-image: url(http://www.climbingschoolusa.com/wp-content/uploads/2015/05/RR-view-e1430952137472.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50vh;
 }
 
 #header {
@@ -12,11 +20,13 @@ body {
   width: 100%;
   height: 4em;
   border-bottom: 1px solid black;
+  z-index: 4;
 }
 
 #header-img {
   float: left;
   height: 4em;
+  margin-left: 20px;
 }
 
 #nav-bar {
@@ -33,29 +43,43 @@ li {
 }
 
 h1 {
-  padding-top: 3em;
-  margin-left: 10%;
-  margin-right: 10%;
+}
+
+.video-section {
+  background-color: lightgray;
+  padding: 20px 50px;
 }
 
 #outer-video-container {
-  margin: 0 auto;
+  margin: auto;
   max-width: 560px;
   overflow: hidden;
   position: relative;
 }
 
 #inner-video-container {
-    padding-top: 56.25%;
+  padding-top: 56.25%;
 }
 
 #video {
   border: 0;
   position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pricing-section {
+  display: flex;
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.pricing {
+  width: 300px;
+  border: 1px solid black;
+  margin: 0px auto;
 }
 
 #email {
