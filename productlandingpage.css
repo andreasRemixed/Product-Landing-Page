@@ -1,7 +1,13 @@
+@media (max-width: 500px) {
+  h1 {
+    color: black;
+  }
+}
+
 body {
   margin: 0;
   text-align: center;
-  min-width: 320px;
+  min-width: 300px;
 }
 /* HERO AND NAV-BAR */
 
@@ -32,17 +38,6 @@ body {
   float: left;
   height: 4em;
   margin-left: 20px;
-}
-
-@@media screen and (max-width: 400px) {
-    #nav-bar a{
-      float: none;
-      width: 100%;
-    }
-
-    li {
-      display: block;
-    }
 }
 
 #nav-bar {
